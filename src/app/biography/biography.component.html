@@ -1,0 +1,70 @@
+<div class="row mt" style="padding-bottom: 100px;" id="personalBio">
+  <div class="col-md-12">
+    <div class="content-panel" style="margin-top:80px">
+      <h4>
+        Personal Details</h4>
+      <hr>
+      <table class="table table-striped table-advance table-hover">
+        <thead>
+        <tr>
+          <th>
+            <i class="fa fa-id-card" aria-hidden="true"></i>Name</th>
+          <th>Gender</th>
+          <th>DOB</th>
+          <th>Location</th>
+          <th>Nationality</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="xyx" data-toggle="collapse" data-target="#1-row">
+          <td>{{ user.name }}</td>
+          <td>{{ user.gender }}</td>
+          <td>{{ user.dob }}</td>
+          <td>{{ user.location }}</td>
+          <td>{{ user.nationality }}</td>
+        </tr>
+        </tbody>
+      </table>
+      <br/>
+      <h4>
+        Educational Qualification</h4>
+      <hr>
+      <table class="table table-striped table-advance table-hover" id="eduTable">
+        <thead>
+        <tr>
+          <th>
+            <i class="fa fa-id-card" aria-hidden="true"></i>Degree</th>
+          <th>College/Board</th>
+          <th>Percentage</th>
+          <th>Year</th>
+        </tr>
+        </thead>
+        <tbody *ngIf="user.biography.length">
+        <tr *ngFor="let biography of user.biography" class="xyx" data-toggle="collapse" data-target="#1-row">
+          <td>{{ biography.degree }}</td>
+          <td>{{ biography.board }}</td>
+          <td>{{ biography.percentage }}</td>
+          <td>{{ biography.year }}</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" id="degree">
+          </td>
+          <td>
+            <input type="text" id="board">
+          </td>
+          <td>
+            <input type="text" id="marks">
+          </td>
+          <td>
+            <input type="text" id="passout">
+          </td>
+          <td>
+            <input type="button" class="add" onclick="add('eduTable')" value="Add Row">
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

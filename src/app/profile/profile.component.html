@@ -1,0 +1,12 @@
+<div class="row" id="profileHighlights">
+  <div *ngIf="user.profile.length" class="col-lg-10 main-chart" style="padding-top: 100px;">
+    <h3 style="color: rgb(238, 218, 218);">
+      <strong *ngFor="let profile of user.profile">
+        ◘  {{ profile }}
+        <br />
+        <br />
+      </strong>
+    </h3>
+
+  </div>
+</div>
