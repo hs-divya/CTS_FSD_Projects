@@ -1,0 +1,13 @@
+.buton-margin {
+    margin: 10px;
+    font-family: Andale Mono, monospace !important;
+  }
+
+  #reset-btn {
+    font-family: Andale Mono, monospace !important;
+  }
+
+.div-margin, .mat-table, .mat-paginator, .mat-paginator-outer-container {
+background-color: rgb(182, 193, 206);
+font-family: Andale Mono, monospace !important;
+  }

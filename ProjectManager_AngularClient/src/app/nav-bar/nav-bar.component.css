@@ -1,0 +1,30 @@
+.nav-bar-button {
+    background-color: #19e419;
+    color : rgb(77, 70, 70);
+    font-family: Andale Mono, monospace !important;
+  }
+  .navbar-btn {
+    border-color: rgb(182, 193, 206) !important;
+    text-transform: uppercase !important;
+    font-family: Andale Mono, monospace !important;
+    font-weight: 400;
+    color: rgb(77, 63, 63) !important;
+    background-color: rgb(182, 193, 206) !important;
+ 
+    padding: 8px 10px !important;
+    
+ }
+.navbar-btn:hover {
+    color: rgb(48, 42, 42);
+    background-color: rgb(182, 193, 206) !important;
+    border-color: rgb(182, 193, 206)!important;
+    font-family: Andale Mono, monospace !important;
+}
+
+.btn-primary {
+    border-color: rgb(182, 193, 206);
+    text-transform: uppercase;
+    font-family: Andale Mono, monospace !important;
+    font-weight: 400;
+    color: rgb(182, 193, 206);
+}

@@ -1,0 +1,9 @@
+#reset-btn {
+    background-color: rgb(189, 104, 167);
+    font-family: Andale Mono, monospace !important;
+  }
+
+  .mat-toolbar {
+    background-color: rgb(182, 193, 206);
+    font-family: Andale Mono, monospace !important;
+}

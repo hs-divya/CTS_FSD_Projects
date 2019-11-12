@@ -1,0 +1,10 @@
+.tabtitle{
+    text-transform: uppercase;
+    font-family: Andale Mono, monospace !important;
+    font-weight: 400;
+}
+
+.mat-toolbar {
+    font-family: Andale Mono, monospace !important;
+    background-color: rgb(182, 193, 206);
+}

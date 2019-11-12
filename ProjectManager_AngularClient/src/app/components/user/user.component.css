@@ -1,0 +1,9 @@
+#reset-btn {
+    background-color: rgb(189, 104, 167);
+    font-family: Andale Mono, monospace !important;
+  }
+
+  .mat-elevation-z8, .mat-form-field-flex, .mat-table, .mat-paginator {
+    background-color: rgb(182, 193, 206);
+    font-family: Andale Mono, monospace !important;
+}

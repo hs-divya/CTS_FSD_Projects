@@ -1,0 +1,14 @@
+.buton-margin {
+    margin: 10px;
+    font-family: Andale Mono, monospace !important;
+  }
+
+  .controles-container{
+    background-color:rgb(182, 193, 206);
+    font-family: Andale Mono, monospace !important;
+  }
+
+  #reset-btn {
+    background-color: rgb(189, 104, 167);
+    font-family: Andale Mono, monospace !important;
+  }
